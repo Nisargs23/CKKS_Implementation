@@ -1,0 +1,66 @@
+# Python environments and generated files
+.venv/
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Editor and local IDE settings
+.vscode/
+.idea/
+
+# CMake and compiler build outputs
+build/
+final/build/
+final/build_*/
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+compile_commands.json
+Makefile
+build.ninja
+.ninja_deps
+.ninja_log
+*.obj
+*.o
+*.a
+*.lib
+*.dll
+*.exe
+
+# Local package-manager build/install artifacts
+vcpkg/buildtrees/
+vcpkg/packages/
+vcpkg/installed/
+vcpkg/downloads/
+
+# OpenFHE/local dependency installations
+openfhe-install/
+openfhe-development/
+
+# Generated cryptographic caches and serialized key material
+final/cache/
+*.bin
+
+# Runtime logs and generated benchmark output
+*.log
+final/benchmarks/
+final/latest_*.txt
+final/run_output.txt
+final/compile_err.txt
+
+# Generated image outputs
+original_image.pgm
+decrypted_image.pgm
+highres_*.pgm
+rgb_output_*.ppm
+
+# Local datasets and model checkpoints
+data/mnist/
+final/medmnist/dataset/
+final/medmnist/test_images/
+final/medmnist/cryptonet_best.pth
+
+# OS metadata
+Thumbs.db
+Desktop.ini
+.DS_Store

@@ -1,0 +1,12 @@
+dataset=bloodmnist
+image_size=12288
+channel_size=4096
+image_width=64
+image_height=64
+num_channels=3
+num_layers=5
+num_classes=8
+activation=square
+layers_before_bootstrap=3
+layers_after_bootstrap=2
+color_mode=rgb
