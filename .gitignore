@@ -54,8 +54,7 @@ decrypted_image.pgm
 highres_*.pgm
 rgb_output_*.ppm
 
-# Local datasets and model checkpoints
-data/mnist/
+# Local MedMNIST datasets and model checkpoints
 final/medmnist/dataset/
 final/medmnist/test_images/
 final/medmnist/cryptonet_best.pth
